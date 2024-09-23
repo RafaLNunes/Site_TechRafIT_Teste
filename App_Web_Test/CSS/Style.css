@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body{
+    background-color: silver;
+    color: #000;
+
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão para a página */
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color: rgb(33, 33, 33);
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: left;
+    align-items: center;
+}
+
+main{
+    background-color: silver;
+    margin-bottom: 3rem;
+}
+
+footer{
+    background-color: rgba(3, 3, 3, 0.318);
+
+    position:static;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+.Desc_menu{
+    margin-right: 2rem;
+    color: rgb(239, 239, 239);
+
+}
+
+.ClDesc_menu{
+    text-decoration: none;
+    color: white;
+}
+
+.ClDesc_menu:hover{
+    text-decoration: underline;
+}
+.Desc_menu:hover{
+    color: rgb(70, 70, 70);
+}
+
+.Hello_World{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    color: rgb(70, 70, 70);
+    text-decoration:underline;
+    text-decoration-color: white;
+    
+}
+
+
+.Nav_Menu {
+    align-self: center;
+    margin-right: 3rem;
+    
+}
+
+
+
+.Div_Pesquisa{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    margin-right: 4rem;
+    margin-left: 20px;
+
+    border-style:ridge;
+    border-radius: 0.7rem;
+    width: auto;
+    height: 30px;
+
+}
+
+.BntPesquisar_mean{
+    margin-left: 0rem;
+    background-color: transparent;
+    border-style: none;
+}
+
+.input_pesquisa_mean{
+    background-color: transparent;
+    border-style: none;
+    color: white;
+    padding-left: 10px;
+}
+
+.input_pesquisa_mean:focus{
+    outline: none;
+}
+
+
+
+.input_info_Email{
+    width: 30rem; /* Define a largura dos campos de input */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Define o espaçamento interno */
+    border-radius: 1.5rem; /* Arredonda as bordas */
+    margin-bottom: 1rem; /* Define espaço abaixo dos inputs */
+    color: #45474B; /* Define a cor do texto */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    cursor: text; /* Define o cursor como de texto */
+
+    background-color: transparent;
+    border-style: ridge;
+}
+
+.textarea_info_Email{
+    width: 30rem; /* Define a largura dos campos de input */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Define o espaçamento interno */
+    border-radius: 1.5rem; /* Arredonda as bordas */
+    margin-bottom: 1rem; /* Define espaço abaixo dos inputs */
+    color: #45474B; /* Define a cor do texto */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    cursor: text; /* Define o cursor como de texto */
+
+    background-color: transparent;
+    border-style: ridge;
+}
+
+.Bnt_Email{
+    padding: 0.8rem 1.2rem; /* Define o espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Arredonda as bordas */
+    background-color: #007c92; /* Define a cor de fundo do botão */
+    color: #F5F7F8; /* Define a cor do texto */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    cursor: pointer; /* Indica que o botão é clicável */
+    margin: 1px; /* Define um pequeno espaçamento */
+}
+.Bnt_Email:hover{
+    background-color: #003e56; /* Altera a cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao botão */
+}
+
+.Div_Input_Email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Div_Bnt_Email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.h1_Requisito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Meio_de_contato{
+    margin-top: 2rem;
+    height: auto;
+    background-color: rgb(66, 49, 49);
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
