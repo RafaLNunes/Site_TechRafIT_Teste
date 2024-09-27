@@ -9,7 +9,11 @@ $Remetente = $_GET["RemetenteQ"];
 $txtarea = $_GET["OBS"];
 $confirm = $_GET["BntRd"];
 $Gen = $_GET["slc_gen"];
-$ft_cam = $_GET["FT"];
+$ft_cam = $_FILES["FT"]["tmp_name"];
+
+
+
+echo $ft_cam;
 
 if($Nome == ""){
     echo "Campo Invalido";
@@ -20,6 +24,7 @@ if($Nome == ""){
     echo "<br>Menssagem: $txtarea";
     echo "<br>Genero: $Gen";
     echo "<br>Foto: ";
+    move_uploaded_file(from: $ft_cam,to: "/upload/");
     echo "<img scr=$ft_cam>";
     
 }
