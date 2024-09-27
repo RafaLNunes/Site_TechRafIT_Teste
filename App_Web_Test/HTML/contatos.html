@@ -50,7 +50,7 @@
     <Main>
         <h1 class="h1_Requisito">Menssagem para contato por E-mail</h1>
         <hr>
-        <form action="mailto: rafaf.code@gmail.com" method="get" enctype="text/plain">
+        <form action="../PHP/Cad.php" method="get" enctype="text/plain">
 
             <div class="Div_Input_Email">
                 <label>Para: </label>
@@ -72,10 +72,31 @@
                 <textarea name="OBS" class="textarea_info_Email"></textarea>
             </div>
 
+            <div class="Div_Radio_Bnt">
+                <label>CONFIRMAR: </label>
+                <div class="Rd_Bnt_Conj">
+                    <input name="BntRd" class="Bnt_Radio" type="radio" value="sim">SIM
+                    <input name="BntRd" class="Bnt_Radio" type="radio" value="nao">NÃO
+                    
+                </div>
+                <Label>Genero</Label>
+                <select name="slc_gen" class="slc_gen">
+                    <option value="Escolher">Escolher</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Outro">Outro</option>
+                    <option value="Prefiro Não dizer">Prefiro Não dizer</option>
+                </select>
+                <label>Foto</label>
+                <input type="file" name="FT" class="ft_select">
+            </div>
+
+
             <div class="Div_Bnt_Email">
                 <input type="submit" name="enviar" value="Enviar" class="Bnt_Email">
                 <input type="reset" name="apagar" value="Cancelar" class="Bnt_Email">
             </div>
+
         </form>
 
         <section class="Meio_de_contato">

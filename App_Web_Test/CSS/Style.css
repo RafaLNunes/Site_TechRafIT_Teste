@@ -15,7 +15,8 @@ body{
 }
 
 header{
-    background-color: rgb(33, 33, 33);
+    /* background-color: rgb(33, 33, 33); */
+    background: linear-gradient(45deg, rgb(33, 33, 33) , rgb(88, 88, 88) );
     color: white;
 
     display: flex;
@@ -55,7 +56,8 @@ footer{
     text-decoration: underline;
 }
 .Desc_menu:hover{
-    color: rgb(70, 70, 70);
+    color: rgb(0, 64, 255);
+    text-decoration-color: rgb(0, 64, 255);
 }
 
 .Hello_World{
@@ -70,9 +72,9 @@ nav a{
     font-weight: bold;
 }
 nav a:hover{
-    color: rgb(70, 70, 70);
+    color: rgb(0, 64, 255);
     text-decoration:underline;
-    text-decoration-color: white;
+    text-decoration-color: rgb(0, 64, 255);
     
 }
 
@@ -187,7 +189,8 @@ nav a:hover{
 .Meio_de_contato{
     margin-top: 2rem;
     height: auto;
-    background-color: rgb(66, 49, 49);
+    /* background-color: rgb(66, 49, 49); */
+    background: linear-gradient(to bottom left, rgb(66, 49, 49) 10%, rgb(116, 102, 102) 80%);
     color: white;
 
     display: flex;
@@ -213,3 +216,42 @@ nav a:hover{
     flex-direction: column;
     align-items: center;
 }
+
+.Div_Radio_Bnt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.Rd_Bnt_Conj{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    border-style:groove;
+    border-radius: 0.7rem;
+    width: 8rem;
+    height: 30px;
+
+    margin-bottom: 15px;
+
+}
+
+.slc_gen{
+    border-radius: 3rem;
+    background-color: transparent;
+    border-style:inset;
+    border-color: white;
+    margin: 15px;
+    margin-top: 2px;
+    padding: 7px;
+}
+
+.slc_gen:focus{
+    outline: none;
+}
+
+
